@@ -1,0 +1,16 @@
+$TTL	3600
+@	IN	SOA	cursolinuxserver.int. root.cursolinuxserver.int. (
+			2		;Serial
+			604800		;Refresh [1 hora]
+			86400		;Retry [10 minutos]
+			2419200		;Expire [1 dia]
+			604800 )	;Negative Cache TTL [1 hora]
+
+@	IN	NS	cursolinuxserver.int.
+@	IN	A	192.168.10.1
+@	IN	A	192.168.20.1
+	IN	MX 5	cursolinuxserver.int. ; servidor de e-mail
+
+cliente1	IN	A	192.168.10.10
+cliente2	IN	A	192.168.20.10
+www		IN	CNAME	cursolinuxserver.int. ; servidor Apache

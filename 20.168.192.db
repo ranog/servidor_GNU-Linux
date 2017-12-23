@@ -1,0 +1,11 @@
+$TTL	3600
+@	IN	SOA	cursolinuxserver.int. root.cursolinuxserver.int. (
+			2		;Serial
+			604800		;Refresh [1 hora]
+			86400		;Retry [10 minutos]
+			2419200		;Expire [1 dia]
+			604800 )	;Negative Cache TTL [1 hora]
+
+	IN	NS	cursolinuxserver.int.
+
+20	IN	PTR	cliente2.cursolinuxserver.int.
