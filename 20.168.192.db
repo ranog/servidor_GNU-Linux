@@ -8,4 +8,4 @@ $TTL	3600
 
 	IN	NS	cursolinuxserver.int.
 
-20	IN	PTR	cliente2.cursolinuxserver.int.
+10	IN	PTR	cliente2.cursolinuxserver.int.
